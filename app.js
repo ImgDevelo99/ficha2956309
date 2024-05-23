@@ -58,7 +58,7 @@ function editContact(index) {
 }
 // Función para eliminar un contacto
 function deleteContact(index) {
-    contacts.splice(index, 1);
+    contacts.splice(index, 1);//para eliminar un solo elemento
     renderContacts();
 }
 
